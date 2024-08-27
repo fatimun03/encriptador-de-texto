@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Encriptador de texto</h1>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <div class="input-output-container"> 
+            <div class="input-area">
+                <label for="texto">Ingresa tu texto:</label>
+                <textarea id="texto" rows="5" cols="50" placeholder="Ingrese el texto aquí"></textarea>
+                <p>¡Advertencia!: No se aceptarán mayúsculas ni caracteres especiales.</p>
+                <button id="encriptar-btn">Encriptar</button>
+                <button id="desencriptar-btn">Desencriptar</button>
+                
+            </div>
+
+            <div class="output-area">
+                <h2>Resultado:</h2>
+                <textarea id="resultado" rows="5" cols="50" readonly></textarea>
+                <button id="copiar-btn">Copiar</button>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>@Fátima González 2024</p>
+    </footer>
+
+    <script src="app.js"></script> 
+</body>
+</html>
+
