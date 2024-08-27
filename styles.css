@@ -166,6 +166,9 @@ textarea {
     text-align: center;
 }
 
+footer{
+    text-align: center;
+}
 
 .input-output-container {
     display: flex;
