@@ -1,5 +1,5 @@
 Challenge encriptador de texto alura latam
-Este proyecto es un encriptador de texto simple que utiliza un método de sustitución para convertir texto en código secreto y viceversa.
+*Este proyecto es un encriptador de texto simple que utiliza un método de sustitución para convertir texto en código secreto y viceversa.*
 
 Características:
 
